@@ -7,9 +7,9 @@
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <style>
-  body {background-color: powderblue;}
+  body {background-color: darkgray;}
 </style>
 
 </head>
@@ -17,33 +17,40 @@
 <body>
     <!--title-->
     <div class="row">
-
+        <div class="col-lg-1" id="title">
+            <h1>Crystals Collector!</h1>
+        </div>
     </div>
     <!--rules-->
     <div class="row">
-
+        <div class="col-lg-1" id="rules">
+            <p>You will be given a random number at the start of the game.
+            </p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total score goes over the random number.</p>
+            <p>The value of each crystal is hidden form you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
     </div>
     <!--random number and wins, losses box-->
     <div class="row">
-
+        <div class="col-lg-1" id="randomNum">
+            <h1></h1>
+        </div>
+        <div class="col-lg-1" id="winsLoses">
+            <p>Wins:  </p>
+            <p>Losses: </p>
+        </div>
     </div>
+   
     <!--row with four clickable crystal buttons-->
-    <div class="row">
-        
-        <div class="col-lg-1" id="redCrystal">
-            <img src="assets/images/redCrystal.jpg">
-        </div>
-        <div class="col-lg-1" id="blueCrystal">
-            <img src="assets/images/blueCrystal.jpeg">
-        </div>
-        <div class="col-lg-1" id="yellowCrystal">
-            <img src="assets/images/yellowCrystal.jpeg">
-        </div>
-        <div class="col-lg-1" id="greenCrystal">
-            <img src="assets/images/greenCrystal.jpg">
-        </div>
-        
+    <div class="crystals">
+        <button class="number" id="btn1" type="button"><img src="assets/images/redCrystal.jpg"></button>
+        <button class="number" id="btn2" type="button"><img src="assets/images/blueCrystal.jpeg"></button>
+        <button class="number" id="btn3" type="button"><img src="assets/images/yellowCrystal.jpeg"></button>
+        <button class="number" id="btn4" type="button"><img src="assets/images/greenCrystal.jpg"></button>  
     </div>
+    
     <!--your score is row-->
     <div class="row">
 
