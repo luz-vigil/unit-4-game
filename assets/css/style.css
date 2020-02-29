@@ -8,11 +8,17 @@
 }
 
 #score {
-    background: ;
+    background: cadetblue;
+}
+
+#scoreIs {
+    color: white;
+    background: cadetblue;
 }
 
 #tally {
-    background: ;
+    color: white;
+    background: blue;
 }
 
 img{

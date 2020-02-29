@@ -7,9 +7,9 @@
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-<link rel="stylesheet" href="style.css">
-<style>
-  body {background-color: darkgray;}
+<link rel="stylesheet" href="assets/css/style.css">
+<!--body {background-color: darkgray;}--><style>
+
 </style>
 
 </head>
@@ -35,28 +35,28 @@
     <!--random number and wins, losses box-->
     <div class="row">
         <div class="col-lg-1" id="randomNum">
-            <h1></h1>
+            <h3>Number to Win</h3>
         </div>
         <div class="col-lg-1" id="winsLoses">
-            <p>Wins:  </p>
-            <p>Losses: </p>
+            <p id="winText">Wins:  </p>
+            <p id="lossText">Losses: </p>
         </div>
     </div>
    
     <!--row with four clickable crystal buttons-->
     <div class="crystals">
-        <button class="number" id="btn1" type="button"><img src="assets/images/redCrystal.jpg"></button>
-        <button class="number" id="btn2" type="button"><img src="assets/images/blueCrystal.jpeg"></button>
-        <button class="number" id="btn3" type="button"><img src="assets/images/yellowCrystal.jpeg"></button>
-        <button class="number" id="btn4" type="button"><img src="assets/images/greenCrystal.jpg"></button>  
+        <button class="number" id="btn1" type="button" value="1"><img src="assets/images/redCrystal.jpg"></button>
+        <button class="number" id="btn2" type="button" value="2"><img src="assets/images/blueCrystal.jpeg"></button>
+        <button class="number" id="btn3" type="button" value= "3"><img src="assets/images/yellowCrystal.jpeg"></button>
+        <button class="number" id="btn4" type="button" value="4"><img src="assets/images/greenCrystal.jpg"></button>  
     </div>
     
     <!--your score is row-->
-    <div class="row">
-
+    <div class="row" id="scoreIs">
+      <p>Your total score is:</p>
     </div>
     <!--total score row-->
-    <div class="row">
+    <div class="row" id="currentScore">
 
     </div>
     <!-- Optional JavaScript -->
@@ -66,18 +66,18 @@
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
-    <script
+    <!--<script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
-    ></script>
+    ></script>-->
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
